@@ -1,0 +1,239 @@
+.Menu {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  margin: auto;
+  height: 75px;
+  background: rgb(206, 203, 203);
+  border: 10px solid goldenrod;
+  border-style:outset;
+
+
+}
+
+.header{
+  width: 960px;
+  margin:auto;
+
+}
+
+.navbar a{
+  padding:20px;
+
+}
+
+.Name{
+  /* position: fixed; */
+  background: rgb(5, 5, 46);
+  color: goldenrod;
+  padding:10px;
+  margin:auto;
+
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  float: left;
+
+  line-height:1px;
+}
+
+.navbar a{
+  padding:25px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgb(5, 5, 46);
+
+    /* margin-top:40px;
+    margin-left: 800px;
+    margin-right: 100px; */
+    font-family:cursive;
+    float: right;
+    /* width:960px; */
+
+
+  }
+
+  a:visited {
+    color:rgb(5, 5, 46);
+    text-decoration:line-through;
+  }
+
+  a:hover {
+    text-decoration: overline;
+    color:goldenrod;
+    background-color:rgb(5, 5, 46) ;
+  }
+
+  a:active {
+    text-decoration: underline;
+    background-color: goldenrod;
+    color:rgb(5, 5, 46);
+  }
+
+
+
+  /* b:link {
+    text-decoration: none;
+    color:#cec8ce;
+    position: fixed;
+    margin-top:40px;
+    margin-left: 800px;
+    margin-right: 100px;
+  }
+
+  b:visited {
+    text-decoration: none;
+  }
+
+  b:hover {
+    text-decoration: underline;
+  }
+
+  b:active {
+    text-decoration: underline;
+  } */
+
+  body{
+    background-image:url(http://printedwallpapercompany.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/n/a/navy-and-gold-geometric.jpg);
+    width: 960px;
+    margin:auto;
+    height:auto;
+
+  }
+
+  /* .box{
+    margin:auto;
+
+  } */
+
+
+  .AboutMe{
+    background-color: rgb(206, 203, 203);
+    /* float:left; */
+    padding:10px;
+    width:960px;
+    margin:140px 0px 140px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+    height:auto;
+
+  }
+
+  h2{
+    color:rgb(5, 5, 46);
+    font-size: 40px;
+    line-height: 0px;
+  }
+
+  img{
+    width:200px;
+    float:none;
+    position:absolute;
+    display:inline-block;
+
+
+  }
+
+  .text{
+    color:rgb(5, 5, 46);
+    /* word-wrap:break-word; */
+    float:left;
+
+    margin:0;
+
+  }
+
+  p{
+    margin:0;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow:auto;
+
+  }
+
+  .format{
+    float:center;
+  }
+
+  footer{
+    position: fixed;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto;
+    height: 75px;
+    background: rgb(5, 5, 46);
+    border-top: 10px solid goldenrod;
+    border-left: 10px solid rgb(5, 5, 46);
+    color: rgb(194, 191, 191);
+    text-align:center;
+
+  }
+
+  .Portfolio{
+    background-color: rgb(206, 203, 203);
+    float:center;
+    font-family:cursive;
+    padding:10px;
+    width:960px;
+    margin:140px 0px 140px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container{
+    float:left;
+  }
+
+  img dance{
+    width:300px;
+    height:210px;
+    /* float:left; */
+  }
+
+  img games{
+    width:300px;
+    height:210px;
+    /* float:left; */
+  }
+
+  img experience{
+    width:300px;
+    height:210px;
+    /* float:left; */
+  }
+
+  img favorites{
+    width:300px;
+    height:210px;
+    /* float:left; */
+  }
+
+  img plans{
+    width:300px;
+    height:210px;
+    /* float:left; */
+  }
+
+  button{
+    padding:10px;
+    opacity:0.7;
+    position:fixed;
+
+
+  }
