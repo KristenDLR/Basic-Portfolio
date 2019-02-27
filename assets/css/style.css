@@ -8,7 +8,7 @@
   background: rgb(206, 203, 203);
   border: 10px solid goldenrod;
   border-style:outset;
-
+  z-index: 1;
 
 }
 
@@ -110,7 +110,7 @@
   } */
 
 
-  .AboutMe{
+  .aboutme{
     background-color: rgb(206, 203, 203);
     /* float:left; */
     padding:10px;
@@ -119,7 +119,8 @@
     font-family: 'Open Sans Condensed', sans-serif;
     border: 10px solid rgb(194, 191, 191);
     border-style:outset;
-    height:auto;
+    height:100%;
+    overflow:hidden;
 
   }
 
@@ -129,26 +130,29 @@
     line-height: 0px;
   }
 
-  img{
+  #profilepic{
     width:200px;
-    float:none;
-    position:absolute;
-    display:inline-block;
-
-
-  }
-
-  .text{
-    color:rgb(5, 5, 46);
-    /* word-wrap:break-word; */
     float:left;
+    margin:10px;
 
-    margin:0;
 
   }
 
   p{
-    margin:0;
+    display:block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:1em;
+
+  }
+
+  .bodytext{
+   font-size: 16px;
+   color:rgb(5, 5, 46);
+    /* word-wrap:break-word; */
+    /* float:left; */
+
   }
 
   .clearfix::after {
@@ -184,12 +188,15 @@
     font-family:cursive;
     padding:10px;
     width:960px;
-    margin:140px 0px 140px 0px;
+    margin:auto;
+    margin-top:120px;
+    margin-bottom: 100px;
     font-family: 'Open Sans Condensed', sans-serif;
     border: 10px solid rgb(194, 191, 191);
     border-style:outset;
-
+    height: 850px;
   }
+
   .clearfix::after {
     content: "";
     clear: both;
@@ -197,43 +204,135 @@
   }
 
   .container{
+    /* float:left; */
+    position: relative;
+
+  }
+
+  #dance {
+    width:310px;
+    height:210px;
     float:left;
+    margin:20px;
+
   }
 
-  img dance{
-    width:300px;
+  #games {
+    width:310px;
     height:210px;
-    /* float:left; */
+    float:left;
+    margin:20px;
   }
 
-  img games{
-    width:300px;
+  #experience{
+    width:310px;
     height:210px;
-    /* float:left; */
+    float:left;
+    margin:20px;
   }
 
-  img experience{
-    width:300px;
+#favorites{
+    width:310px;
     height:210px;
-    /* float:left; */
+    float:left;
+    margin:20px;
   }
-
-  img favorites{
-    width:300px;
+#plans{
+    width:310px;
     height:210px;
-    /* float:left; */
+    float:left;
+    margin:20px;
   }
 
-  img plans{
-    width:300px;
-    height:210px;
-    /* float:left; */
-  }
-
-  button{
+  .btn1{
     padding:10px;
     opacity:0.7;
-    position:fixed;
+    position: absolute;
+    top: 185px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+    /* z-index: -1; */
+  }
 
+  .btn2{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 185px;
+    left: 375px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
 
+  .btn3{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 435px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .btn4{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 435px;
+    left: 375px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .btn5{
+    padding:10px;
+    opacity:0.7;
+    position:absolute;
+    top: 685px;
+    left: 25px;
+    width:100%;
+    max-width:300px;
+    text-align:center;
+    font-size:16px;
+    cursor:pointer;
+  }
+
+  .contacts{
+    background-color: rgb(206, 203, 203);
+    float:center;
+    font-family:cursive;
+    padding:10px;
+    width:960px;
+    margin-top:135px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 10px solid rgb(194, 191, 191);
+    border-style:outset;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  form{
+    font-size:28px;
+  }
+
+  input {
+    width:100%;
+    height:28px;
+  }
+
+  textarea {
+    width:100%;
   }
